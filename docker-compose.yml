@@ -1,0 +1,13 @@
+version: "3.7"
+services:
+  keycloak:
+    build: .
+    environment:
+      - KEYCLOAK_DEFAULT_THEME=example-theme
+      - KEYCLOAK_WELCOME_THEME=example-theme
+      - KEYCLOAK_USER=${KEYCLOAK_USER}
+      - KEYCLOAK_PASSWORD=${KEYCLOAK_PASSWORD}
+    volumes:
+      - "$PWD/theme:/opt/jboss/keycloak/themes/example-theme:Z"
+    ports:
+     - "127.0.0.1:8080:8080"
