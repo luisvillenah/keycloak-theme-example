@@ -15,7 +15,7 @@ By default the port 8080 mapped locally, visit http://localhost:8080 to access t
 
 # Creating a theme
 
-Follow the [Server Development](https://www.keycloak.org/docs/6.0/server_development/#configure-theme) guide to extend and customize the base theme. By default every theme type extends the keycloak theme, consider to extend the base theame instad.
+Follow the [Server Development](https://www.keycloak.org/docs/6.0/server_development/#configure-theme) guide to extend and customize the base theme. By default every theme type extends the keycloak theme, consider to extend the base theme instead.
 
 Add your files in the `theme` directory.
 
