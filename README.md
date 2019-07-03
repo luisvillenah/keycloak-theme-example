@@ -7,7 +7,6 @@ This is a Keycloak Server image for theme development.
 Use `KEYCLOAK_USER` and `KEYCLOAK_PASSWORD` environment variables to set the admin user credentials the first time you boot the server.
 
 ```
-docker-compose build
 KEYCLOAK_USER=<admin_user> KEYCLOAK_PASSWORD=<admin_password> docker-compose up
 ```
 
